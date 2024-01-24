@@ -1,0 +1,14 @@
+    import = ["/home/dmr/.config/alacritty/colorthemes/gruvbox_dark.toml"]
+
+    [font]
+    size = 14
+
+    [font.normal]
+    family = "UbuntuMono Nerd Font"
+
+    [window]
+    decorations = "none"
+
+    [window.padding]
+    x = 4
+    y = 4
