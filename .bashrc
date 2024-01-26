@@ -28,7 +28,7 @@ function git_branch() {
 # Set the prompt.
 
 function bash_prompt() {
-	PS1='\e[1;34m\u@\H \A \d\e[0m'${blu}'\e[1;35m $(git_branch)\e[0m'${pur}'\e[1;37m \w\e[0m'${grn}' \n'${clr}'\e[1;36m> \e[0m'
+	PS1='\e[1;34m\u@\H \A \d\e[0m'${pur}'\e[1;37m \w\e[0m'${grn}' \n'${clr}'\e[1;35m $(git_branch)\e[0m\e[1;36m > \e[0m'
 }
 
 bash_prompt
